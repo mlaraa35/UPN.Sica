@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPN.Sica", "UPN.Sica\UPN.Sica.csproj", "{3DBB28DE-A05E-4884-B5F4-64CC0C5C48F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Presentacion", "10 - Presentacion", "{4266733B-199F-4777-89BA-DD960285324A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - Servicios", "20 - Servicios", "{4126DA0A-8421-4964-91D3-467F6E867D4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 - Aplicacion", "30 - Aplicacion", "{75298150-86DD-4625-8C11-A1CF07851F4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 - Datos", "40 - Datos", "{5AF59A6F-FD3A-4F7B-B0EB-FECFBA157D40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 - Transversal", "50 - Transversal", "{4BCA779D-81F9-40B2-A68D-A26B797604E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60 - Reportes", "60 - Reportes", "{D3438FF9-4871-4D24-9C1E-4504E6D9F1D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50.1 - Helpers", "50.1 - Helpers", "{B2D2C343-1F06-4405-A4B9-12524FF82BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPN.Sica.Transversal.Helpers", "UPN.Sica.Transversal.Helpers\UPN.Sica.Transversal.Helpers.csproj", "{C0AE30D2-EEE3-43E7-B120-71D18484C183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DBB28DE-A05E-4884-B5F4-64CC0C5C48F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBB28DE-A05E-4884-B5F4-64CC0C5C48F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBB28DE-A05E-4884-B5F4-64CC0C5C48F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBB28DE-A05E-4884-B5F4-64CC0C5C48F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AE30D2-EEE3-43E7-B120-71D18484C183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AE30D2-EEE3-43E7-B120-71D18484C183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AE30D2-EEE3-43E7-B120-71D18484C183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AE30D2-EEE3-43E7-B120-71D18484C183}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DBB28DE-A05E-4884-B5F4-64CC0C5C48F5} = {4266733B-199F-4777-89BA-DD960285324A}
+		{B2D2C343-1F06-4405-A4B9-12524FF82BFF} = {4BCA779D-81F9-40B2-A68D-A26B797604E6}
+		{C0AE30D2-EEE3-43E7-B120-71D18484C183} = {B2D2C343-1F06-4405-A4B9-12524FF82BFF}
+	EndGlobalSection
+EndGlobal
